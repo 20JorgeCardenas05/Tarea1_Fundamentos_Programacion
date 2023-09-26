@@ -5,17 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primera página</title>
     <link rel="stylesheet" href="estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <h1>Tarea fundamentos de la Programación</h1>
+    <header>
+        <h1>Tarea fundamentos de la Programación</h1>
+    </header>
     <nav>
-     <ul>
-         <li><a href="">Menú</a></li>
-         <li><a href="">Menú</a></li>
-         <li><a href="">Menú</a></li>
-         <li><a href="">Menú</a></li>
-     </ul>
-    </nav>
+        <ul>
+            <li><a href="">Menú</a></li>
+            <li><a href="">Menú</a></li>
+            <li><a href="">Menú</a></li>
+            <li><a href="">Menú</a></li>            
+        </ul>
+       </nav>
     <div class="contenido">
         <div class="artículos">
             <div class="secciones">
@@ -44,12 +47,33 @@
             </div>
         </div>
         <div class="menú-secundario">
-            <a href="https://www.instagram.com/joorgercp/">Instagram</a>
-            <a href="https://github.com/20JorgeCardenas05">GitHub</a>
+            <a href="https://www.instagram.com/joorgercp/" target="_blank">Instagram</a>
+            <a href="https://github.com/20JorgeCardenas05" target="_blank">GitHub</a>
+            <a href="https://www.google.com" target="_blank">Google</a>
         </div>
     </div>
     <footer>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam assumenda repellat, aut quod soluta qui veniam labore tempore sequi voluptatem fugiat vitae recusandae aliquid accusantium earum ex rem officia quos?</p>
+        <form id="Formulario1" name="Formulario1" accion="">
+            <label for="">Text</label>
+            <input type="text">
+            <label for="">Password</label>
+            <input type="password">
+            <label for="">Age</label>
+            <input type="number">
+            <label for="">Email</label>
+            <input type="email">
+            <label for="">Date</label>
+            <input type="date">
+            <label for="">Color</label>
+            <input type="color">
+            <label for="">Checkbox</label>
+            <input type="checkbox">
+            <input type="submit" value="Send formulary">
+        </form>
     </footer>
+    <script>
+        let nombre = "Jorge Rafael Cardenas Puente";
+        console.log(nombre);
+    </script>
 </body>
 </html>
