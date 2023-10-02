@@ -69,16 +69,23 @@ nav a:hover {
     margin: 60px;
 }
 .artículos {
-    width: 80%;
+    width: 50%;
     border-right: 3px solid black;
 }
 .secciones {
     display: flex;
+    flex-direction: column;
     align-items: center;
     padding: 40px;
 }
+.subtitulos {
+    text-align: center;
+}
+.parrafos {
+    text-align: justify;
+}
 .menú-secundario {
-    width: 20%;
+    width: 50%;
     align-self: center;
 }
 .menú-secundario a {
@@ -100,4 +107,12 @@ footer {
     width: 40%;
     display: flex;
     flex-direction: column;
+}
+label {   
+    align-self: center;
+    width: fit-content;
+    align-items: center;
+    color: black;
+    background: aqua;
+    border-style: double;
 }
